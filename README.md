@@ -1,39 +1,47 @@
-🏡 Next Real Estate App
+# 🏡Next Real Estate App
 
-Welcome to the Next Real Estate App! This project is a modern and responsive real estate application built with Next.js, providing users with the ability to browse, search, and view details of various real estate listings.
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-🌟 Features
-🏘️ Property Listings: Browse a wide range of properties available for sale or rent.
-🔍 Search and Filter: Easily search for properties by location, price range, property type, and more.
-🗺️ Map Integration: View properties on an interactive map powered by Mapbox.
-📱 Responsive Design: Optimized for all devices, ensuring a seamless experience on both desktop and mobile.
-📋 Property Details: Access detailed information including images, price, location, and amenities.
-🛠️ Technologies Used
-Next.js: The React framework for building server-side rendered and static web applications.
-React: JavaScript library for creating user interfaces.
-Tailwind CSS: A utility-first CSS framework for building custom designs without leaving your HTML.
-Mapbox: A powerful mapping platform to visualize location data.
-Axios: A promise-based HTTP client for making requests to external APIs.
-🚀 Getting Started
-Follow these steps to get a local copy of the project up and running:
+## Overview
 
-1. Clone the Repository
-bash
-Copy code
-git clone https://github.com/okarin25/Next-real-estate-app-.git
-cd Next-real-estate-app-
-2. Install Dependencies
-bash
-Copy code
-npm install
-3. Set Up Environment Variables
-Create a .env.local file in the root directory and add the following:
+This project is a Next.js-based real estate application that allows users to browse and search for real estate listings. The application integrates with external APIs to fetch property data and includes features such as filtering, map integration, and property details.
 
-plaintext
-Copy code
-NEXT_PUBLIC_API_URL=your_api_url_here
-NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN=your_mapbox_token_here
-4. Run the Development Server
-bash
-Copy code
-npm run dev
+## 🌟Features
+
+- **Property Listings**: View a list of properties available for sale or rent.
+- **Search and Filter**: Search for properties by location, price range, property type, and more.
+- **Map Integration**: View properties on an interactive map.
+- **Responsive Design**: The application is fully responsive and works on all devices.
+- **Property Details**: Detailed information about each property, including images, price, location, and amenities.
+
+## 🛠️ Technologies Used
+
+- **Next.js**: The React framework for building static and server-side rendered applications.
+- **React**: JavaScript library for building user interfaces.
+- **Tailwind CSS**: Utility-first CSS framework for designing responsive and modern UI.
+- **Mapbox**: For displaying interactive maps.
+- **Axios**: Promise-based HTTP client for the browser and Node.js.
+
+## 🚀 Installation
+
+To run this project locally, follow these steps:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/okarin25/Next-real-estate-app-.git
+   cd Next-real-estate-app-
+   
+2. **Install dependencies**:
+   ```bash
+   npm install
+   
+3. **Set up environment variables**:
+    
+   Create a .env.local file in the root directory and add your environment variables:
+   ```bash
+   NEXT_PUBLIC_API_URL=your_api_url_here
+   NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN=your_mapbox_token_here
+   
+4. **Run the development server**:
+   ```bash
+   npm run dev
