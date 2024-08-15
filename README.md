@@ -45,3 +45,17 @@ To run this project locally, follow these steps:
 4. **Run the development server**:
    ```bash
    npm run dev
+
+## 🖼️ Screenshots
+(https://github.com/user-attachments/assets/522cd733-e709-4120-8890-33cb9178bd1b)
+
+
+![Screenshot 2024-08-15 124028](https://github.com/user-attachments/assets/07986eda-9653-496f-bdaa-e075d994efff)
+
+![Screenshot 2024-08-15 124050](https://github.com/user-attachments/assets/76ffbf8c-f830-43e0-9729-f0cdd80298e2)
+
+![Screenshot 2024-08-15 124118](https://github.com/user-attachments/assets/c845ae10-b162-4caf-8ed6-4ec8bbee6024)
+
+
+
+
